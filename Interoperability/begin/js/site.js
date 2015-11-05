@@ -1,4 +1,4 @@
-if (navigator.userAgent.indexOf("MSIE") > 0)
+if (!Modernizr.svg)
 {
 	document.getElementById('logo').src = 'images/Microsoft_logo.png';
 }
